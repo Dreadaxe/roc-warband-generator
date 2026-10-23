@@ -21,7 +21,7 @@ The warrior naming tool is **an independent algorithm**, inspired by the early 1
 
 ## Logo and typography
 
-The masthead uses a deliberately restrained old-rulebook typographic arrangement, with Palatino, Book Antiqua and serif fallbacks. The optional historic logo image uses the [reference supplied by the project owner](https://eternalhunt.wordpress.com/wp-content/uploads/2013/05/roc_logo02.png) when available online. It is **not** bundled with the application and may fail to load: the self-contained wordmark is displayed instead. Colour treatment changes according to the chosen skin. Original artwork and marks remain the property of their respective rights holders.
+The masthead first attempts to display the historic [Realm of Chaos logo reference provided by the project owner](https://eternalhunt.wordpress.com/wp-content/uploads/2013/05/roc_logo02.png). Because the original asset could not be reliably downloaded, it is **still external**. If it fails, the application now displays an **embedded monochrome SVG title artwork** (also available at [`assets/realm-of-chaos-monochrome.svg`](assets/realm-of-chaos-monochrome.svg)), so the title remains visible when offline. The local SVG is a modern, independent typographic fallback **not a restoration or reproduction of the historical hand-drawn Games Workshop logo**. The default and photocopy skins use black and white; Slaves to Darkness and Lost and the Damned tint the title red and olive respectively. Original artwork, names and marks remain with their respective owners. For a fully local historical logo, a confirmed redistributable high-resolution source is still required.
 
 ## Seeded randomness
 

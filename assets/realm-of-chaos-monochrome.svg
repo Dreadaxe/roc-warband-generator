@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 176" role="img" aria-labelledby="t d">
+<title id="t">Realm of Chaos — monochrome fallback</title>
+<desc id="d">Original black ink wordmark inspired by late-1980s printed fantasy rulebooks; not a copy of Games Workshop's historical logo.</desc>
+<g fill="#14110e">
+<path d="M12 23h154l-17 5H36l-8 19-12-10zM614 23h154l-4 14-12 10-8-19H631z"/>
+<path d="M18 137h206l-26 5H29l-10 12-7-11zM558 137h210l-4 6-6 11-10-12H583z"/>
+<path d="m60 37 7-12 7 12-7 12zM706 37l7-12 7 12-7 12zM45 139l5-9 5 9-5 9zM720 139l5-9 5 9-5 9z"/>
+<path d="M79 56h76v2H79zm543 0h80v2h-80zM82 114h70v2H82zm543 0h73v2h-73z"/>
+</g>
+<g text-anchor="middle" fill="#12100e" font-family="Georgia,'Times New Roman',serif" font-weight="900">
+<text x="390" y="69" font-size="71" letter-spacing="-4.2" textLength="572" lengthAdjust="spacingAndGlyphs" stroke="#12100e" stroke-width="0.7">REALM</text>
+<text x="390" y="126" font-size="70" letter-spacing="-3.2" textLength="572" lengthAdjust="spacingAndGlyphs" stroke="#12100e" stroke-width="0.9">OF CHAOS</text>
+</g>
+<g fill="none" stroke="#171410" stroke-width="1.4">
+<path d="M100 83h160M520 83h160M270 83l15-9 13 9-13 9zM482 83l13-9 15 9-15 9z"/>
+<path d="m390 12 7 10-7 8-7-8zM390 145l7 10-7 8-7-8z"/>
+</g>
+</svg>

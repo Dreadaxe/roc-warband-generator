@@ -1,6 +1,6 @@
 # RoC Warband Generator
 
-**Version 0.9.7** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.8** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
@@ -13,7 +13,7 @@ Open [`index.html`](index.html) in any modern browser. No Excel, build step, reg
 - A **generation seed** field in the Load menu. If a locally saved warband uses the entered seed, it loads that saved warband. Otherwise, it regenerates a warband using **the currently selected options** and the entered seed.
 - Generate warband names and champion names using adjacent dice buttons. A name can always be edited manually. Champion names are stored with the roster, included in exports, and survive loading.
 - An icon next to the seed copies it; a miniature icon identifies the estimated model count.
-- The **Save warband as JSON** and **Export & print** controls share a single horizontal action row. Preferences and advanced settings start collapsed. Results can be saved locally, imported/exported to JSON, exported to text, or printed.
+- The **Save warband as JSON** and **Export & print** controls share a single horizontal action row. Preferences and advanced settings start collapsed. Results can be saved locally, imported/exported to JSON, or exported as TXT, Markdown (`.md`) and forum BBCode (`.bbcode`) with an optional dice-roll log. The export menu offers shared content controls for numeric profiles, attributes/gifts/items, model counts and the roll log; its copy action has a selectable TXT/Markdown/BBCode format. Printing remains a separate full visual render. JSON is always a full, lossless save and ignores presentation checkboxes.
 
 ## Naming sources and credit
 
@@ -21,7 +21,7 @@ The warrior naming tool is **an independent algorithm**, inspired by the early 1
 
 ## Logo and typography
 
-The masthead first attempts to display the historic [Realm of Chaos logo reference provided by the project owner](https://eternalhunt.wordpress.com/wp-content/uploads/2013/05/roc_logo02.png). Because the original asset could not be reliably downloaded, it is **still external**. If it fails, the application now displays an **embedded monochrome SVG title artwork** (also available at [`assets/realm-of-chaos-monochrome.svg`](assets/realm-of-chaos-monochrome.svg)), so the title remains visible when offline. The local SVG is a modern, independent typographic fallback **not a restoration or reproduction of the historical hand-drawn Games Workshop logo**. The default and photocopy skins use black and white; Slaves to Darkness and Lost and the Damned tint the title red and olive respectively. Original artwork, names and marks remain with their respective owners. For a fully local historical logo, a confirmed redistributable high-resolution source is still required.
+The masthead first attempts to display the historic [Realm of Chaos logo reference provided by the project owner](https://eternalhunt.wordpress.com/wp-content/uploads/2013/05/roc_logo02.png). Because the original asset could not be reliably downloaded, it is **still external**. If it fails, the application now displays an **embedded monochrome SVG title artwork** (also available at [`assets/realm-of-chaos-monochrome.svg`](assets/realm-of-chaos-monochrome.svg)), so the title remains visible when offline. Both the loaded remote historic image and the local SVG are rendered in black-and-white for the RoC and monochrome skins; the historical image is recoloured for the other skins via CSS. The local SVG is a modern, independent typographic fallback **not a restoration or reproduction of the historical hand-drawn Games Workshop logo**. The default and photocopy skins use black and white; Slaves to Darkness and Lost and the Damned tint the title red and olive respectively. Original artwork, names and marks remain with their respective owners. For a fully local historical logo, a confirmed redistributable high-resolution source is still required.
 
 ## Seeded randomness
 

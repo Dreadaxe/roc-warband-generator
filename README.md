@@ -1,6 +1,6 @@
 # RoC Warband Generator
 
-**Version 0.9.8** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.9** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
@@ -11,13 +11,13 @@ Open [`index.html`](index.html) in any modern browser. No Excel, build step, reg
 - Original-English / French toggle and four skin variants (RoC pages, Slaves to Darkness, The Lost and the Damned, monochrome).
 - One **Load / Charger** menu at the top. Its list includes **Local saves** first and **Original workbook examples** second; selecting an entry immediately loads it. JSON import remains available.
 - A **generation seed** field in the Load menu. If a locally saved warband uses the entered seed, it loads that saved warband. Otherwise, it regenerates a warband using **the currently selected options** and the entered seed.
-- Generate warband names and champion names using adjacent dice buttons. A name can always be edited manually. Champion names are stored with the roster, included in exports, and survive loading.
+- Generate and edit warband and champion names with instant preview updates (no need to regenerate the roster). The champion name generator selects a race-aware pool after the champion's actual race has been rolled. Character followers get individual race-based names; grouped unit followers get one collective nickname (not a fictional name for each miniature). Every profile includes a dice button to reroll its displayed name only. Automatically generated names use an isolated PRNG derived from the warband seed, preserving all mechanical dice rolls. Names are included in JSON/TXT/Markdown/BBCode and survive loading.
 - An icon next to the seed copies it; a miniature icon identifies the estimated model count.
 - The **Save warband as JSON** and **Export & print** controls share a single horizontal action row. Preferences and advanced settings start collapsed. Results can be saved locally, imported/exported to JSON, or exported as TXT, Markdown (`.md`) and forum BBCode (`.bbcode`) with an optional dice-roll log. The export menu offers shared content controls for numeric profiles, attributes/gifts/items, model counts and the roll log; its copy action has a selectable TXT/Markdown/BBCode format. Printing remains a separate full visual render. JSON is always a full, lossless save and ignores presentation checkboxes.
 
 ## Naming sources and credit
 
-The warrior naming tool is **an independent algorithm**, inspired by the early 1980s Citadel Chaos Warrior names documented by **Zhu Bajiee** in [The Chaos Deth Spiky Name Generator of Chaos](https://realmofzhu.blogspot.com/2016/10/the-chaos-deth-spiky-name-generator-of.html), published 23 October 2016 on *The Realm of Zhu*. It is **not** a reproduction of Zhu's embedded generator or full original tables. Warband names use an independent selection of evocative Oldhammer-style constructions; they are not sourced from Zhu's article.
+The name generators are **independent reconstruction-inspired algorithms**, **not** copies of Zhu Bajiee's Google Sheets or exact historical name tables. They draw on the naming practices documented in four *The Realm of Zhu* essays: [Chaos Warriors (2016)](https://realmofzhu.blogspot.com/2016/10/the-chaos-deth-spiky-name-generator-of.html), [Orcs (2016)](https://realmofzhu.blogspot.com/2016/10/the-name-of-orc.html), [Elves (2017)](https://realmofzhu.blogspot.com/2017/06/ye-oldhammer-elf-name-generator.html), and [Dwarfs (2017)](https://realmofzhu.blogspot.com/2017/08/an-oldhammer-recounting-of-dwarves.html). The other races (Goblins, Skaven, Beastmen, Ogres, etc.) use original, deliberately separate themed vocabularies without claiming they come from Zhu. Warband names use a separate original algorithm. All links and author credit are present in the app's collapsed naming-sources panel.
 
 ## Logo and typography
 

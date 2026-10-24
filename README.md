@@ -1,6 +1,6 @@
 # RoC Warband Generator
 
-**Version 0.9.9** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.10** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
@@ -13,6 +13,7 @@ Open [`index.html`](index.html) in any modern browser. No Excel, build step, reg
 - A **generation seed** field in the Load menu. If a locally saved warband uses the entered seed, it loads that saved warband. Otherwise, it regenerates a warband using **the currently selected options** and the entered seed.
 - Generate and edit warband and champion names with instant preview updates (no need to regenerate the roster). The champion name generator selects a race-aware pool after the champion's actual race has been rolled. Character followers get individual race-based names; grouped unit followers get one collective nickname (not a fictional name for each miniature). Every profile includes a dice button to reroll its displayed name only. Automatically generated names use an isolated PRNG derived from the warband seed, preserving all mechanical dice rolls. Names are included in JSON/TXT/Markdown/BBCode and survive loading.
 - An icon next to the seed copies it; a miniature icon identifies the estimated model count.
+- The header tagline is **Path to Glory** in both languages. Generated two-part personal names use canonical English spellings in saved files; the given name is retained while the compound surname is localized on screen and in TXT, Markdown and BBCode exports (e.g. `Goron Bloodreaper` ↔ `Goron Faucheur-de-sang`). Recognized French surnames can also be typed and switched back to English. Unknown or freely invented surnames are preserved unchanged. The estimated-miniatures symbol has been redrawn for better legibility.
 - The **Save warband as JSON** and **Export & print** controls share a single horizontal action row. Preferences and advanced settings start collapsed. Results can be saved locally, imported/exported to JSON, or exported as TXT, Markdown (`.md`) and forum BBCode (`.bbcode`) with an optional dice-roll log. The export menu offers shared content controls for numeric profiles, attributes/gifts/items, model counts and the roll log; its copy action has a selectable TXT/Markdown/BBCode format. Printing remains a separate full visual render. JSON is always a full, lossless save and ignores presentation checkboxes.
 
 ## Naming sources and credit

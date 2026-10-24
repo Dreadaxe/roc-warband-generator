@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chargement d’une graine RoC</title></head>
+<body style="font-family:Georgia,serif;background:#f6f1e6;color:#211d17;padding:2rem">
+<p id="message">Chargement de la bande du Chaos…</p><p><a href="/roc-warband-generator/">Revenir au générateur RoC</a></p>
+<script>
+(function(){
+ const base='/roc-warband-generator/';
+ if(!location.pathname.startsWith(base))return;
+ const suffix=location.pathname.slice(base.length).replace(/\/$/,'');
+ if(!/^\d{1,140}$/.test(suffix)){document.getElementById('message').textContent='Graine de génération non reconnue.';return;}
+ location.replace(base+'?seed='+encodeURIComponent(suffix));
+})();
+</script></body></html>

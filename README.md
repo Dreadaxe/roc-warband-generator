@@ -1,10 +1,17 @@
 # RoC Warband Generator
 
-**Version 0.9.11** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.12** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
 Open [`index.html`](index.html) in any modern browser. No Excel, build step, registration or server backend is required. On GitHub Pages, publish from `main` → `/ (root)` via Settings → Pages. Intended live URL, when deployment is enabled: https://dreadaxe.github.io/roc-warband-generator/
+
+## Appearance, typography and shareable seeds
+
+- The **Appearance / Apparence** selector now opens beside the French/English switch in the header. The **Preferences** panel still contains rules and variant toggles.
+- Headings prefer **Casablanca Antique** or **Caslon Antique** (when installed), with **IM Fell English SC** as a freely served web-font fallback. Body text prefers **Garamond** or **ITC Garamond**, with **EB Garamond** as a web-font fallback. Offline, the page falls back to available local serif faces; no proprietary font files are included. See Zhu Bajie's contributions to the [Oldhammer Forum discussion about Games Workshop typefaces](https://forum.oldhammer.org/threads/what-fonts-did-gw-use-in-their-publications.2534/), originally started by axiom in March 2014.
+- Numeric seeds have direct shareable routes, for instance [`/683062341705`](https://dreadaxe.github.io/roc-warband-generator/683062341705). A custom `404.html` redirects the deep link to the main static page's `?seed=` handler; the app generates that seed and restores the clean URL. The link icon next to the displayed seed copies the shareable URL. **The link includes only the seed**: anyone reproducing a custom race, allegiance, retinue table or other non-default settings must choose the same options manually.
+- Because GitHub Pages uses a custom `404.html` redirect for unknown paths, the first network response for a deep link may be a 404 redirect page; JavaScript automatically loads the generator when enabled.
 
 ## Features
 

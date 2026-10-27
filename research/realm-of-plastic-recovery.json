@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Realm of Plastic original data recovery inventory",
   "description": "Factual inventory of original Realm of Plastic generator sources. Metadata only; NOT the original name database and NOT an authorization to republish it.",
-  "status": "original_tables_not_recovered_as_machine_readable_data",
+  "status": "eight_indexed_original_pdf_tables_located_but_files_and_verified_extractions_unavailable",
   "verified_on": "2026-10-27",
   "author": "Jamie (RoP / Realm of Plastic)",
   "wayback_index": "https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-name-generators",
@@ -78,5 +78,160 @@
     }
   ],
   "source_license": "not located; copyright remains with respective rights holders",
-  "note": "These links establish the existence of original printed d6 tables, not that the complete original 2021 website database has been recovered. Do not label an original-data implementation complete until exact source bytes, extracted tables and validation hashes are present."
+  "note": "These links establish the existence of original printed d6 tables, not that the complete original 2021 website database has been recovered. Do not label an original-data implementation complete until exact source bytes, extracted tables and validation hashes are present.",
+  "indexed_original_pdf_tables": [
+    {
+      "category": "Skaven",
+      "title": "Unofficial Character Name Generator — Skaven",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c77cc8724a69414f0be75e8/1551355022142/Character%2BName%2BGenerator%2B-%2BSkaven.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "title",
+        "given_name_prefix",
+        "given_name_suffix",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "very_high"
+    },
+    {
+      "category": "Khorne Bloodbound",
+      "title": "Unofficial Character Name Generator — Khorne Bloodbound",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5cdd3b2671ab1f00016f52f7/1558002479368/Character%2BName%2BGenerator%2B-%2BKhorne%2BBloodbound.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "given_name_prefix",
+        "given_name_suffix_male",
+        "given_name_suffix_female",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "very_high"
+    },
+    {
+      "category": "Gloomspite Gitz",
+      "title": "Unofficial Character Name Generator — Gloomspite Gitz",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c4af83b70a6ade98b52a7ed/1548417086490/Character%2BName%2BGenerator%2B-%2BGloomspite%2BGitz.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "title",
+        "given_name_prefix",
+        "given_name_suffix",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "high_for_goblins"
+    },
+    {
+      "category": "Fyreslayers",
+      "title": "Unofficial Character Name Generator — Fyreslayers",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5cb84cf3f4e1fc87534985a7/1555582199688/Character%2BName%2BGenerator%2B-%2BFyreslayers.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "given_name_prefix",
+        "given_name_suffix_male",
+        "given_name_suffix_female",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "medium_for_dwarves"
+    },
+    {
+      "category": "Idoneth Deepkin",
+      "title": "Unofficial Character Name Generator — Idoneth Deepkin",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c6ee3e4419202e7165e88c3/1550771176735/Character%2BName%2BGenerator%2B-%2BIdoneth%2BDeepkin.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "given_name_prefix",
+        "given_name_suffix_male",
+        "given_name_suffix_female",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "medium_for_elves"
+    },
+    {
+      "category": "Flesh-Eater Courts",
+      "title": "Unofficial Character Name Generator — Flesh-Eater Courts",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c3e0520aa4a99c7693ed0e5/1547568422168/character%20name%20generator%20-%20flesh-eater%20courts.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "title_male",
+        "title_female",
+        "given_name_prefix",
+        "given_name_suffix",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "medium_for_undead"
+    },
+    {
+      "category": "Aqshy (Realm of Fire)",
+      "title": "Unofficial Character Name Generator — Aqshy (Realm of Fire)",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5cb85543ec212d1aa1ec1efd/1555584330570/Character%2BName%2BGenerator%2B-%2BAqshy.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "given_name_prefix",
+        "given_name_suffix_male",
+        "given_name_suffix_female",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "low_warhammer_aos"
+    },
+    {
+      "category": "Nighthaunt",
+      "title": "Unofficial Character Name Generator — Nighthaunt",
+      "original_pdf_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c5c116f0d9297a1747480d5/1549537655902/Character%2BName%2BGenerator%2B-%2BNighthaunt.pdf",
+      "source_index_status": "full_text_excerpts_search_indexed",
+      "source_pdf_download_status": "not_verified; Squarespace original URL failed direct download",
+      "format": "single-page 2d6 grid tables (6 columns x 6 rows per part)",
+      "table_parts": [
+        "given_name_prefix",
+        "given_name_suffix_male",
+        "given_name_suffix_female",
+        "surname_prefix",
+        "surname_suffix",
+        "honorific_prefix",
+        "honorific_suffix"
+      ],
+      "old_world_relevance": "medium_for_undead"
+    }
+  ],
+  "provenance_note": "Search-index excerpts contain actual original table text, but OCR/index text can corrupt the grid order and hyphenation. Full PDF binaries or reliably formatted copies must be obtained and visually verified before calling any machine-readable JSON an authentic recovery. Retain attribution and obtain permission before republication.",
+  "pages_deployment_check": {
+    "time_local": "2026-10-27 11:48 Europe/Paris",
+    "head_commit": "47b47906f478acb92176d9e807384d103583bdd2",
+    "workflow_url": "https://github.com/Dreadaxe/roc-warband-generator/actions/runs/40491088454",
+    "conclusion": "success",
+    "version": "0.9.15"
+  }
 }

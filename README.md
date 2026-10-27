@@ -1,6 +1,6 @@
 # RoC Warband Generator
 
-**Version 0.9.13** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.14** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
@@ -22,6 +22,14 @@ None of the original generators is queried, embedded, scraped, or copied: the ap
 ## Mobile presentation (0.9.13)
 
 Below 700 px, a sticky **Créer / Voir la bande** navigation separates generation from the results instead of stacking both full sections. Generating, importing or loading a warband automatically opens the results tab. On results, the champion's stat card starts expanded while follower cards are collapsed by default and can be opened individually. A profile's 12 statistics show as a responsive 2-row, 6-column grid with labels. The masthead and action bars are tighter so users can reach content with less scrolling. Desktop presentation and full print view are preserved. The estimated miniature count uses an original vector icon of a horned, axe-carrying Chaos champion in spiked plate with a shield and a round gaming base; it is not copied from Games Workshop art.
+
+## Realm of Plastic archive (0.9.14)
+
+The [29 November 2024 Wayback snapshot of Realm of Plastic's Warhammer Fantasy generator index](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-name-generators) contains extensive links to character name generators (Skaven, Orcs & Goblins, Chaos Dwarfs, Lizardmen, Dwarfs, the Empire, Kislev and others), plus a Warriors of Chaos army/warband name generator. The application now offers **Realm of Plastic (Jamie)** as a **fifth, optional** name style and lists eight topical direct archive links.
+
+**Provenance:** The archived article text and directory links were retrievable; we have **not confirmed recovery of the original JS tables or their full internal datasets**. The local Realm of Plastic mode uses **original, separate morphologies and deity-aware Chaos epithets**, rather than copying unavailable/restricted author data or claiming an exact reproduction of Jamie's generator. The first name is preserved when known Chaos epithets are localized between English and French. This option can affect individual character and follower names and, on demand, the warband-name dice button. The original default remains *only The Realm of Zhu selected*. The same seed and selected provider set yield the same generated person names, without changing rules dice.
+
+The interface and TXT/Markdown/BBCode outputs now use **Models** (English) or **Figurines** (French), without the “Estimated” qualifier. The French display uses **Skaven** for an individual and **Skavens** for groups, while stored source rules data stay unchanged.
 
 ## Features
 

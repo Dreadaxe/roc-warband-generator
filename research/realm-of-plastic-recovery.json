@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Realm of Plastic original data recovery inventory",
   "description": "Factual inventory of original Realm of Plastic generator sources. Metadata only; NOT the original name database and NOT an authorization to republish it.",
-  "status": "eight_indexed_original_pdf_tables_located_but_files_and_verified_extractions_unavailable",
+  "status": "six_archived_html_generator_sources_recovered_with_original_js_arrays_privately",
   "verified_on": "2026-10-27",
   "author": "Jamie (RoP / Realm of Plastic)",
   "wayback_index": "https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-name-generators",
@@ -226,12 +226,67 @@
       "old_world_relevance": "medium_for_undead"
     }
   ],
-  "provenance_note": "Search-index excerpts contain actual original table text, but OCR/index text can corrupt the grid order and hyphenation. Full PDF binaries or reliably formatted copies must be obtained and visually verified before calling any machine-readable JSON an authentic recovery. Retain attribution and obtain permission before republication.",
+  "provenance_note": "Six archived HTML files were supplied by the user and contain original JavaScript arrays and generators. Original name-data recovery is verified, distinct from still-unrecovered PDF source binaries and other generator pages. Preserve separate source identity. Public GitHub stores metadata only pending redistribution permission.",
   "pages_deployment_check": {
     "time_local": "2026-10-27 11:48 Europe/Paris",
     "head_commit": "47b47906f478acb92176d9e807384d103583bdd2",
     "workflow_url": "https://github.com/Dreadaxe/roc-warband-generator/actions/runs/40491088454",
     "conclusion": "success",
     "version": "0.9.15"
+  },
+  "recovered_original_html_generators": [
+    {
+      "category": "Kislev character names",
+      "functions": 2,
+      "table_cells": 1186,
+      "source_file": "user-supplied Wayback HTML",
+      "public_original_arrays": false
+    },
+    {
+      "category": "Orcs Goblins Trolls character names",
+      "functions": 3,
+      "table_cells": 810,
+      "source_file": "user-supplied Wayback HTML",
+      "public_original_arrays": false
+    },
+    {
+      "category": "Gnoblars character names",
+      "functions": 1,
+      "table_cells": 291,
+      "source_file": "user-supplied Wayback HTML",
+      "public_original_arrays": false
+    },
+    {
+      "category": "Beasts of Chaos character names",
+      "functions": 8,
+      "table_cells": 3549,
+      "source_file": "user-supplied Wayback HTML",
+      "public_original_arrays": false
+    },
+    {
+      "category": "Beasts of Chaos army names",
+      "functions": 5,
+      "table_cells": 1428,
+      "source_file": "user-supplied Wayback HTML",
+      "public_original_arrays": false
+    },
+    {
+      "category": "Warriors of Chaos army names",
+      "functions": 5,
+      "table_cells": 1374,
+      "lexical_entries": 1362,
+      "selection_tokens": 12,
+      "archive_capture": "2024-08-03T08:24:31Z",
+      "wayback_url": "https://web.archive.org/web/20240803082431/https://www.realmofplastic.com/warhammer-fantasy-blog/warriors-of-chaos-army-name-generator-warhammer-fantasy",
+      "local_private_filename": "Realm_of_Plastic_Warriors_of_Chaos_original_tables.json",
+      "verified_runs": "20 of 20 original vs extracted generator checks",
+      "public_original_arrays": false
+    }
+  ],
+  "recovered_html_summary": {
+    "original_html_files": 6,
+    "original_generator_functions": 24,
+    "table_cells_including_control_tokens": 8638,
+    "full_database_state": "extracted user-provided sources; original name arrays preserved privately and not published on GitHub"
   }
 }

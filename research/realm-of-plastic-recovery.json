@@ -288,5 +288,14 @@
     "original_generator_functions": 24,
     "table_cells_including_control_tokens": 8638,
     "full_database_state": "extracted user-provided sources; original name arrays preserved privately and not published on GitHub"
+  },
+  "publication_permission": {
+    "status": "not_verified",
+    "license": "none located",
+    "archived_site_notice": "All other rights are reserved.",
+    "consequence": "Original recovered name arrays remain excluded from this public repository pending a redistribution grant from the rightsholder.",
+    "source": "User-provided archived HTML of Realm of Plastic (2024 snapshot)",
+    "publication_prerequisite": "Evidence of the author's permission or an applicable license expressly allowing republication of the full curated lists in an open GitHub repository.",
+    "permission_received": false
   }
 }

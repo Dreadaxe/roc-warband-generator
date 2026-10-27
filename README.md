@@ -1,6 +1,6 @@
 # RoC Warband Generator
 
-**Version 0.9.14** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.15** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
@@ -40,6 +40,10 @@ The interface and TXT/Markdown/BBCode outputs now use **Models** (English) or **
 - An icon next to the seed copies it; a miniature icon identifies the estimated model count.
 - The header tagline now reads **Chaos Warbands - Paths to Glory** in English and **Suites du Chaos - Chemins de la Gloire** in French. Generated two-part personal names use canonical English spellings in saved files; the given name is retained while the compound surname is localized on screen and in TXT, Markdown and BBCode exports (e.g. `Goron Bloodreaper` ↔ `Goron Faucheur-de-sang`). Recognized French surnames can also be typed and switched back to English. Unknown or freely invented surnames are preserved unchanged. The estimated-miniatures symbol now depicts a **larger tabletop miniature with shield, spear and base** next to the model count (44 px on desktop, responsively smaller on mobile).
 - The **Save warband as JSON** and **Export & print** controls share a single horizontal action row. Preferences and advanced settings start collapsed. Results can be saved locally, imported/exported to JSON, or exported as TXT, Markdown (`.md`) and forum BBCode (`.bbcode`) with an optional dice-roll log. The export menu offers shared content controls for numeric profiles, attributes/gifts/items, model counts and the roll log; its copy action has a selectable TXT/Markdown/BBCode format. Printing remains a separate full visual render. JSON is always a full, lossless save and ignores presentation checkboxes.
+
+## Credits placement (0.9.15)
+
+Source credits and the Peter Acs / Lead Rising attribution appear **only in the global footer**, alongside contacts and the coffee support link. The redundant credits and historic-logo availability note have been removed from the sidebar below Preferences.
 
 ## Contact and support
 

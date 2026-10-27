@@ -1,6 +1,6 @@
 # RoC Warband Generator
 
-**Version 0.9.12** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
+**Version 0.9.13** — Unofficial bilingual (English / Français) browser adaptation of Peter Acs (Phlyk)'s **RoC Warband Generator v1.2.8**, as published at [Lead Rising](https://www.lead-rising.com/p/roc-warband-generator.html).
 
 ## Use and deployment
 
@@ -12,6 +12,16 @@ Open [`index.html`](index.html) in any modern browser. No Excel, build step, reg
 - Headings prefer **Casablanca Antique** or **Caslon Antique** (when installed), with **IM Fell English SC** as a freely served web-font fallback. Body text prefers **Garamond** or **ITC Garamond**, with **EB Garamond** as a web-font fallback. Offline, the page falls back to available local serif faces; no proprietary font files are included. See Zhu Bajie's contributions to the [Oldhammer Forum discussion about Games Workshop typefaces](https://forum.oldhammer.org/threads/what-fonts-did-gw-use-in-their-publications.2534/), originally started by axiom in March 2014.
 - Numeric seeds have direct shareable routes, for instance [`/683062341705`](https://dreadaxe.github.io/roc-warband-generator/683062341705). A custom `404.html` redirects the deep link to the main static page's `?seed=` handler; the app generates that seed and restores the clean URL. The link icon next to the displayed seed copies the shareable URL. **The link includes only the seed**: anyone reproducing a custom race, allegiance, retinue table or other non-default settings must choose the same options manually.
 - Because GitHub Pages uses a custom `404.html` redirect for unknown paths, the first network response for a deep link may be a 404 redirect page; JavaScript automatically loads the generator when enabled.
+
+## Name-source selection (0.9.13)
+
+The source selector below **Champion name** lists four opt-in **independent offline name styles**: The Realm of Zhu (Zhu Bajiee), Warpstone no. 2 (Empire-inspired Germanic names), Fantasy Name Generators (race-oriented fantasy names), and Yafnag (medieval fantasy names). **Only The Realm of Zhu is checked by default.** Sources can be combined; the selection is stored locally and is included in each new warband JSON configuration. Names are reproduced for a given seed **and the same selected source set**. Selecting a different naming style never changes the mechanical dice rolls. The Warpstone style is applicable to human/Chaos characters; other races use whichever other selected style applies, or Zhu when necessary.
+
+None of the original generators is queried, embedded, scraped, or copied: the application includes independently written naming algorithms inspired by the styles indexed by [La Grande Librairie de Mordheim](https://sites.google.com/view/grande-librairie-de-mordheim/introduction/generateurs-de-noms). Original article links are supplied alongside the choices. Other directory references remain external (including Realm of Plastic's archive, NNTeam, Littlemonk/WQ95, and [Blessed by Nuffle](https://blessedbynuffle.blogspot.com/p/name-generators.html), formerly Snow White Hills).
+
+## Mobile presentation (0.9.13)
+
+Below 700 px, a sticky **Créer / Voir la bande** navigation separates generation from the results instead of stacking both full sections. Generating, importing or loading a warband automatically opens the results tab. On results, the champion's stat card starts expanded while follower cards are collapsed by default and can be opened individually. A profile's 12 statistics show as a responsive 2-row, 6-column grid with labels. The masthead and action bars are tighter so users can reach content with less scrolling. Desktop presentation and full print view are preserved. The estimated miniature count uses an original vector icon of a horned, axe-carrying Chaos champion in spiked plate with a shield and a round gaming base; it is not copied from Games Workshop art.
 
 ## Features
 

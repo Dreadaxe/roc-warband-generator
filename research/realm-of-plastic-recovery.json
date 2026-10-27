@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Realm of Plastic original data recovery inventory",
+  "description": "Factual inventory of original Realm of Plastic generator sources. Metadata only; NOT the original name database and NOT an authorization to republish it.",
+  "status": "original_tables_not_recovered_as_machine_readable_data",
+  "verified_on": "2026-10-27",
+  "author": "Jamie (RoP / Realm of Plastic)",
+  "wayback_index": "https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-name-generators",
+  "captures": [
+    {
+      "category": "Skaven",
+      "type": "Squarespace web generator",
+      "capture": "2023-03-08T07:04:54Z",
+      "url": "https://web.archive.org/web/20230308070454/https://www.realmofplastic.com/warhammer-fantasy-blog/skaven-character-name-generator-warhammer-fantasy",
+      "original_javascript_extracted": false
+    },
+    {
+      "category": "Skaven",
+      "type": "Squarespace web generator",
+      "capture": "2024-08-03T08:24:31Z",
+      "url": "https://web.archive.org/web/20240803082431/https://www.realmofplastic.com/warhammer-fantasy-blog/skaven-character-name-generator-warhammer-fantasy",
+      "original_javascript_extracted": false
+    },
+    {
+      "category": "Warriors of Chaos army/warband",
+      "type": "Wayback blog generator",
+      "url": "https://web.archive.org/web/20240803082431/https://www.realmofplastic.com/warhammer-fantasy-blog/warriors-of-chaos-army-name-generator-warhammer-fantasy",
+      "original_javascript_extracted": false
+    }
+  ],
+  "recovered_primary_source_references": [
+    {
+      "category": "Skaven",
+      "title": "Unofficial Character Name Generator — Skaven Characters",
+      "type": "single-page PDF with d6 tables",
+      "original_publisher_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c77cc8724a69414f0be75e8/1551355022142/Character%2BName%2BGenerator%2B-%2BSkaven.pdf",
+      "text_indexed_copy": "https://www.scribd.com/document/677400761/Character-Name-Generator-Skaven",
+      "parts": [
+        "title",
+        "first name part one",
+        "first name part two",
+        "second name part one",
+        "second name part two",
+        "honorific part one",
+        "honorific part two"
+      ],
+      "source_content_byte_verified": false
+    },
+    {
+      "category": "Khorne Bloodbound",
+      "title": "Unofficial Character Name Generator — Khorne Bloodbound Characters",
+      "type": "single-page PDF with d6 tables",
+      "original_publisher_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5cdd3b2671ab1f00016f52f7/1558002479368/Character%2BName%2BGenerator%2B-%2BKhorne%2BBloodbound.pdf",
+      "text_indexed_copy": "https://www.scribd.com/document/543930482/Character-Name-Generator-Khorne-Bloodbound",
+      "parts": [
+        "first name part one",
+        "first name part two (male)",
+        "first name part two (female)",
+        "second name part one",
+        "second name part two",
+        "honorific part one",
+        "honorific part two"
+      ],
+      "source_content_byte_verified": false
+    },
+    {
+      "category": "Gloomspite Gitz",
+      "title": "Unofficial Character Name Generator — Gloomspite Gitz Characters",
+      "type": "single-page PDF with d6 tables",
+      "original_publisher_url": "https://static1.squarespace.com/static/5a1e949a90bcceacbe7285b1/t/5c4af83b70a6ade98b52a7ed/1548417086490/Character%2BName%2BGenerator%2B-%2BGloomspite%2BGitz.pdf",
+      "parts": [
+        "title",
+        "first name",
+        "second name",
+        "honorific"
+      ],
+      "source_content_byte_verified": false
+    }
+  ],
+  "source_license": "not located; copyright remains with respective rights holders",
+  "note": "These links establish the existence of original printed d6 tables, not that the complete original 2021 website database has been recovered. Do not label an original-data implementation complete until exact source bytes, extracted tables and validation hashes are present."
+}

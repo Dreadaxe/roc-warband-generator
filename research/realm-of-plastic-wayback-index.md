@@ -58,3 +58,45 @@ If the archive offers a `.pdf` of the original table, download the actual file a
 
 © The original generator data remain attributed to Jamie; Wayback availability does not confer redistribution permission. Compare captured bytes and original URLs before any public code integration.
 
+## Recovery status — 27 October 2026
+
+There are **15 archived HTML pages recovered with original JavaScript tables**, with **14 additional linked generator pages still missing**, out of the 29-link scope of this catalog. Counts are per original page, not per script function. This does not cover all generators that ever existed on Jamie's site, or the distinct indexed historical PDF dice tables.
+
+### Recovered pages (15)
+
+- Kislev character
+- Beasts of Chaos character
+- Bretonnia character
+- Dwarfs character
+- Empire character
+- Lizardmen character
+- Gnoblars character
+- Orcs Goblins Trolls character
+- Nurgle Daemons character
+- Scourge Privateers character
+- Daughters of Khaine character
+- Gutbuster Mawtribes character
+- Warriors of Chaos army
+- Beasts of Chaos army
+- Chaos cult
+
+### Missing pages (14)
+
+| Generator | RoC priority | Wayback page |
+|---|---|---|
+| Skaven character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-blog/skaven-character-name-generator-warhammer-fantasy) |
+| Chaos Dwarfs character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-blog/chaos-dwarfs-character-name-generator-warhammer-fantasy) |
+| Skaven army/clan | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-clan-name-generator-skaven) |
+| Khorne Bloodbound character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-khorne-bloodbound) |
+| Nurgle Rotbringers character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-nurgle-rotbringers) |
+| Slaanesh Hedonites character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-slaanesh-hedonites) |
+| Tzeentch Arcanites character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-tzeentch-arcanites) |
+| Nighthaunt character | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/2019/2/7/character-name-generator-nighthaunt) |
+| Deathrattle Wights character | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-deathrattle-wights) |
+| Sylvaneth character | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-sylvaneth) |
+| Cities of Sigmar army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-name-generator-cities-of-sigmar) |
+| Lumineth Realmlords army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-name-generator-lumineth-realm-lords) |
+| Ogor Mawtribes army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-name-generator-ogor-mawtribes) |
+| Sylvaneth Wargroves army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/warhammer-army-name-generator-sylvaneth-wargroves) |
+
+All Wayback links point to the archived snapshot entry point. A linked archived page does not guarantee its original generator script survives; obtain the full HTML (including inline JS) from the user's Firefox source as with prior pages.

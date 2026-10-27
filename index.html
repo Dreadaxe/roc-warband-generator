@@ -399,7 +399,7 @@ body h1,body h2,body h3,body h4,body .brand h1,body .intro h2,body .summary-name
 <label class="skin-choice"><input name="skin" type="radio" value="slaves"/><span aria-hidden="true" class="skin-plate" data-preview="slaves"><i></i><b></b><s></s><s></s><s></s></span><span class="skin-choice-copy"><strong data-i18n="skinSlaves">Slaves to Darkness</strong><small data-i18n="skinSlavesHelp">Papier vieilli, contrastes forts et rouge sombre.</small></span></label>
 <label class="skin-choice"><input name="skin" type="radio" value="damned"/><span aria-hidden="true" class="skin-plate" data-preview="damned"><i></i><b></b><s></s><s></s><s></s></span><span class="skin-choice-copy"><strong data-i18n="skinDamned">The Lost and the Damned</strong><small data-i18n="skinDamnedHelp">Papier gris-vert, encre et olive assourdi.</small></span></label>
 <label class="skin-choice"><input name="skin" type="radio" value="mono"/><span aria-hidden="true" class="skin-plate" data-preview="mono"><i></i><b></b><s></s><s></s><s></s></span><span class="skin-choice-copy"><strong data-i18n="skinMono">Photocopie Oldhammer</strong><small data-i18n="skinMonoHelp">Noir et blanc, comme un fanzine reproduit.</small></span></label>
-</fieldset><p class="smallhelp" data-i18n="skinPersist">Votre préférence d'apparence est mémorisée.</p><p class="font-source"><a href="https://forum.oldhammer.org/threads/what-fonts-did-gw-use-in-their-publications.2534/" target="_blank" rel="noopener noreferrer" data-i18n="fontSource">Typographies Games Workshop : contributions de Zhu Bajie sur Oldhammer Forum</a></p></div></details></div><div class="version" data-i18n="version">ÉDITION LIVRETS RoC · 0.9.12 · HORS LIGNE</div></div>
+</fieldset><p class="smallhelp" data-i18n="skinPersist">Votre préférence d'apparence est mémorisée.</p><p class="font-source"><a href="https://forum.oldhammer.org/threads/what-fonts-did-gw-use-in-their-publications.2534/" target="_blank" rel="noopener noreferrer" data-i18n="fontSource">Typographies Games Workshop : contributions de Zhu Bajie sur Oldhammer Forum</a></p></div></details></div><div class="version" data-i18n="version">ÉDITION LIVRETS RoC · 0.9.13 · HORS LIGNE</div></div>
 </div></header>
 <div class="command-band" aria-label="Actions sur les bandes"><details class="load-menu" id="load-menu"><summary class="load-trigger"><span aria-hidden="true">↧</span> <span data-i18n="loadMenu">Charger une bande</span><span class="fold-icon" aria-hidden="true"></span></summary><div class="load-sheet">
 <h2 data-i18n="loadTitle">Charger une bande</h2>
@@ -629,7 +629,31 @@ let activeFilter='all';
 function renderWarband(){let out=$('output'),w=state.warband;window.ROC_WARBAND_EXISTS=!!w;
 if(!w){out.innerHTML=`<div class="empty"><span class="empty-icon">⚔</span><h2>${esc(t('emptyTitle'))}</h2><p>${esc(t('emptyHelp'))}</p></div>`;$('summary').innerHTML='';$('rolls-content').innerHTML='';$('result-title').textContent=t('chaosBands');$('result-subtitle').textContent=t('welcome');return;}
 let heroes=w.entries.filter(x=>['champion','character','were'].includes(x.kind)).length;let groups=w.entries.filter(x=>x.kind==='unit');let models=w.entries.reduce((tot,e)=>tot+Math.max(1,e.count||1),0);
-$('summary').innerHTML=`<div class="summary-name">${esc(displayBandName(w))}</div><p>${esc(w.book)} · ${esc(w.god==='Undivided'?t('undivided'):w.god)}</p><div class="metrics"><div><strong>${w.slots}</strong><span>${t('metricRolls')}</span></div><div><strong>${heroes}</strong><span>${t('metricCharacters')}</span></div><div><strong>${groups.length}</strong><span>${t('metricUnits')}</span></div><div class="models-metric"><div class="models-head"><svg aria-hidden="true" class="miniature-icon" viewBox="0 0 64 64" fill="none" focusable="false"><g fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M8 53h48v5c-10 5-38 5-48 0z" stroke-width="1"/><ellipse cx="32" cy="53" rx="24" ry="4.2" stroke-width="1"/><path d="M27 18l2-4h6l2 4-2 6h-6z"/><path d="m27 14 1-5 4-3 4 3 1 5z"/><path d="M25 24 18 30l4 7 6-3v10l-5 9h8l3-11 2 11h9l-5-11V34l5 4 4-7-7-7z"/><path d="M20 27 13 28 9 35l3 10 8-1 5-7z"/><path d="M48 26v25" stroke-width="3"/><path d="M43 27l5-9 5 9z"/></g><g stroke="var(--paper)" stroke-width="1.5" stroke-linecap="round"><path d="M29 19h6M26 30l5 4 8-4M11 37l8-2"/><path d="M13 56h38"/></g></svg><strong>${models}</strong></div><span class="models-label">${t('metricModels')}</span></div></div><div class="seedline"><span>${t('textSeed')}</span><code>${esc(w.seed)}</code><button id="copySeed" class="textbutton seed-copy" aria-label="${t('copySeed')}" title="${t('copySeed')}"><svg aria-hidden="true" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="1"/><path d="M16 8V4H4v12h4"/></svg></button><button id="copySeedLink" class="seed-share" type="button" aria-label="${t('copySeedLink')}" title="${t('copySeedLink')}"><svg aria-hidden="true" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m10 13 4-4M8.5 16.5H7A5 5 0 0 1 7 6h4M15.5 7.5H17a5 5 0 0 1 0 10h-4"/></svg></button></div>`;
+$('summary').innerHTML=`<div class="summary-name">${esc(displayBandName(w))}</div><p>${esc(w.book)} · ${esc(w.god==='Undivided'?t('undivided'):w.god)}</p><div class="metrics"><div><strong>${w.slots}</strong><span>${t('metricRolls')}</span></div><div><strong>${heroes}</strong><span>${t('metricCharacters')}</span></div><div><strong>${groups.length}</strong><span>${t('metricUnits')}</span></div><div class="models-metric"><div class="models-head"><svg aria-hidden="true" class="miniature-icon" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" fill="none">
+<!-- Original Chaos champion silhouette: curling horns, ridged armour, jagged axe and miniature base. -->
+<g fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+<path d="M7 62h58v5c-10 5-47 5-58 0z"/><ellipse cx="36" cy="62" rx="29" ry="4"/>
+<!-- baroque helmet with curling horns -->
+<path d="M30 22 27 14 19 12 14 5c-2 9 0 17 10 19l5 4zm12 0 3-8 8-2 5-7c2 9 0 17-10 19l-5 4z"/>
+<path d="M29 22 36 17l7 5-2 13-5 5-5-5z"/>
+<path d="m31 24 5-4 5 4-2 11-3 3-3-3z"/>
+<!-- spiked plate and cape -->
+<path d="m27 35-12-5-8 5 9 9-7 15 12 1 12-11zm18 0 12-5 7 5-9 9 8 15-12 1-12-11z"/>
+<path d="M25 37 36 33l11 4 5 19-11 4-5-9-5 9-11-4z"/>
+<path d="m31 53-6 9h12l-1-8zm10 0 1 9h10l-6-9z"/>
+<path d="M21 30 11 28l-6 8 13 5 9-7zm30 0 10-2 7 8-13 5-9-7z"/>
+<!-- axe shaft and heavily notched axe head -->
+<path d="M56 18h3v44h-3z"/>
+<path d="m55 19-8-4 2-8 8 2 2-6 5 10-5 10-3-4-6 4-3-5z"/>
+<!-- shield with a small radiating eight-point motif -->
+<path d="M11 40q7-6 15-1l-1 14-9 8-8-10z"/>
+</g>
+<g stroke="var(--paper)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="m31 28 3 1 2-1 2 1 3-1M36 31v4M30 40l6 4 6-4M22 44l-6 8 6-2"/>
+<path d="M16 43v13m-5-7h10m-8-4 6 8m0-8-6 8"/>
+<path d="M16 64h40"/>
+</g>
+</svg><strong>${models}</strong></div><span class="models-label">${t('metricModels')}</span></div></div><div class="seedline"><span>${t('textSeed')}</span><code>${esc(w.seed)}</code><button id="copySeed" class="textbutton seed-copy" aria-label="${t('copySeed')}" title="${t('copySeed')}"><svg aria-hidden="true" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="1"/><path d="M16 8V4H4v12h4"/></svg></button><button id="copySeedLink" class="seed-share" type="button" aria-label="${t('copySeedLink')}" title="${t('copySeedLink')}"><svg aria-hidden="true" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m10 13 4-4M8.5 16.5H7A5 5 0 0 1 7 6h4M15.5 7.5H17a5 5 0 0 1 0 10h-4"/></svg></button></div>`;
 let entries=w.entries.filter(e=>activeFilter==='all'||activeFilter==='characters'&&e.kind!=='unit'||activeFilter==='units'&&e.kind==='unit');
 $('result-title').textContent=displayBandName(w);
 $('result-subtitle').textContent=`${new Date(w.created).toLocaleString(getUILang()==='fr'?'fr-FR':'en-GB')} · ${w.book}`;

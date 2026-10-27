@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Realm of Plastic original data recovery inventory",
   "description": "Factual inventory of original Realm of Plastic generator sources. Metadata only; NOT the original name database and NOT an authorization to republish it.",
-  "status": "six_archived_html_generator_sources_recovered_with_original_js_arrays_privately",
+  "status": "fifteen_archived_html_pages_contain_original_jamie_js_tables_recovered_privately",
   "verified_on": "2026-10-27",
   "author": "Jamie (RoP / Realm of Plastic)",
   "wayback_index": "https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-name-generators",
@@ -226,7 +226,7 @@
       "old_world_relevance": "medium_for_undead"
     }
   ],
-  "provenance_note": "Six archived HTML files were supplied by the user and contain original JavaScript arrays and generators. Original name-data recovery is verified, distinct from still-unrecovered PDF source binaries and other generator pages. Preserve separate source identity. Public GitHub stores metadata only pending redistribution permission.",
+  "provenance_note": "The user supplied 15 original archived HTML files with inline original JavaScript. All 63 functions / 25,999 array entries (including repeated and control entries) were parsed without errors. Chaos Cult originals matched a local reconstructive program in 348 deterministic tests. The original copyrighted name arrays remain off the public repo; the archive does not itself grant redistribution permission.",
   "pages_deployment_check": {
     "time_local": "2026-10-27 11:48 Europe/Paris",
     "head_commit": "47b47906f478acb92176d9e807384d103583bdd2",
@@ -284,10 +284,12 @@
     }
   ],
   "recovered_html_summary": {
-    "original_html_files": 6,
-    "original_generator_functions": 24,
-    "table_cells_including_control_tokens": 8638,
-    "full_database_state": "extracted user-provided sources; original name arrays preserved privately and not published on GitHub"
+    "original_html_files": 15,
+    "original_generator_functions": 63,
+    "table_cells_including_control_tokens": 25999,
+    "previous_six_cells": 8638,
+    "new_nine_cells": 17361,
+    "full_database_state": "all original arrays recovered from 15 user-provided Wayback HTML files and retained locally only; public repo stores citation metadata and counts"
   },
   "publication_permission": {
     "status": "not_verified",
@@ -297,5 +299,117 @@
     "source": "User-provided archived HTML of Realm of Plastic (2024 snapshot)",
     "publication_prerequisite": "Evidence of the author's permission or an applicable license expressly allowing republication of the full curated lists in an open GitHub repository.",
     "permission_received": false
+  },
+  "new_nine_recovered_html_generators": [
+    {
+      "category": "Lizardmen characters",
+      "functions": 3,
+      "table_entries": 675,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-12-17T21:28:58Z",
+      "original_url": "https://www.realmofplastic.com/warhammer-fantasy-blog/lizardmen-character-name-generator-warhammer-fantasy",
+      "wayback_url": "https://web.archive.org/web/2024-12-17T21:28:58Z/https://www.realmofplastic.com/warhammer-fantasy-blog/lizardmen-character-name-generator-warhammer-fantasy",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Bretonnia characters",
+      "functions": 2,
+      "table_entries": 929,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-08-03T08:24:35Z",
+      "original_url": "https://www.realmofplastic.com/warhammer-fantasy-blog/bretonnia-character-name-generator-warhammer-fantasy",
+      "wayback_url": "https://web.archive.org/web/2024-08-03T08:24:35Z/https://www.realmofplastic.com/warhammer-fantasy-blog/bretonnia-character-name-generator-warhammer-fantasy",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Dwarfs characters",
+      "functions": 2,
+      "table_entries": 658,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-12-10T10:37:00Z",
+      "original_url": "https://www.realmofplastic.com/warhammer-fantasy-blog/dwarfs-character-name-generator-warhammer-fantasy",
+      "wayback_url": "https://web.archive.org/web/2024-12-10T10:37:00Z/https://www.realmofplastic.com/warhammer-fantasy-blog/dwarfs-character-name-generator-warhammer-fantasy",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Empire characters",
+      "functions": 2,
+      "table_entries": 1140,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-11-29T09:02:16Z",
+      "original_url": "https://www.realmofplastic.com/warhammer/warhammer-fantasy-empire-character-name-generator-the-old-world",
+      "wayback_url": "https://web.archive.org/web/2024-11-29T09:02:16Z/https://www.realmofplastic.com/warhammer/warhammer-fantasy-empire-character-name-generator-the-old-world",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Nurgle Daemons characters",
+      "functions": 1,
+      "table_entries": 409,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-11-29T09:13:29Z",
+      "original_url": "https://www.realmofplastic.com/hobby-blog/character-name-generator-nurgle-daemons",
+      "wayback_url": "https://web.archive.org/web/2024-11-29T09:13:29Z/https://www.realmofplastic.com/hobby-blog/character-name-generator-nurgle-daemons",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Scourge Privateers characters",
+      "functions": 8,
+      "table_entries": 3890,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-11-29T09:01:23Z",
+      "original_url": "https://www.realmofplastic.com/rop-advent-calendar-2019/character-name-generator-scourge-privateers",
+      "wayback_url": "https://web.archive.org/web/2024-11-29T09:01:23Z/https://www.realmofplastic.com/rop-advent-calendar-2019/character-name-generator-scourge-privateers",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Daughters of Khaine characters",
+      "functions": 8,
+      "table_entries": 3657,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-11-29T09:04:46Z",
+      "original_url": "https://www.realmofplastic.com/rop-advent-calendar-2019/character-name-generator-daughters-of-khaine",
+      "wayback_url": "https://web.archive.org/web/2024-11-29T09:04:46Z/https://www.realmofplastic.com/rop-advent-calendar-2019/character-name-generator-daughters-of-khaine",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Gutbuster Mawtribes characters",
+      "functions": 8,
+      "table_entries": 3154,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-11-29T09:03:14Z",
+      "original_url": "https://www.realmofplastic.com/rop-advent-calendar-2019/character-name-generator-gutbuster-ogor-mawtribes",
+      "wayback_url": "https://web.archive.org/web/2024-11-29T09:03:14Z/https://www.realmofplastic.com/rop-advent-calendar-2019/character-name-generator-gutbuster-ogor-mawtribes",
+      "full_data_in_public_repo": false
+    },
+    {
+      "category": "Chaos cult names",
+      "functions": 5,
+      "table_entries": 2849,
+      "source": "user-provided saved Wayback HTML with inline JS original tables",
+      "capture": "2024-11-29T09:07:42Z",
+      "original_url": "https://www.realmofplastic.com/warhammer-40k-blog/cult-name-generator",
+      "wayback_url": "https://web.archive.org/web/2024-11-29T09:07:42Z/https://www.realmofplastic.com/warhammer-40k-blog/cult-name-generator",
+      "full_data_in_public_repo": false
+    }
+  ],
+  "cult_name_generator_validation": {
+    "category": "Chaos cult names (Warhammer-40K article explicitly compatible with Old World)",
+    "variants": [
+      "Undivided",
+      "Khorne",
+      "Nurgle",
+      "Tzeentch",
+      "Slaanesh"
+    ],
+    "functions": 5,
+    "formula_templates": 87,
+    "table_cells": 2849,
+    "lexical_table_cells": 2762,
+    "control_cells": 87,
+    "original_to_reconstruction_deterministic_parity": {
+      "passed": 348,
+      "failed": 0
+    },
+    "original_data_public": false
   }
 }

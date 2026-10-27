@@ -60,43 +60,28 @@ If the archive offers a `.pdf` of the original table, download the actual file a
 
 ## Recovery status — 27 October 2026
 
-There are **15 archived HTML pages recovered with original JavaScript tables**, with **14 additional linked generator pages still missing**, out of the 29-link scope of this catalog. Counts are per original page, not per script function. This does not cover all generators that ever existed on Jamie's site, or the distinct indexed historical PDF dice tables.
+**22 / 29 archived pages recovered** with original JavaScript name tables (92 generator functions, 37,623 array entries including duplicates and control entries). Seven named generator pages are still missing from this specific Wayback-index catalog, but the catalog is not necessarily exhaustive of all historic Realm of Plastic generators.
 
-### Recovered pages (15)
+### Still missing (7)
 
-- Kislev character
-- Beasts of Chaos character
-- Bretonnia character
-- Dwarfs character
-- Empire character
-- Lizardmen character
-- Gnoblars character
-- Orcs Goblins Trolls character
-- Nurgle Daemons character
-- Scourge Privateers character
-- Daughters of Khaine character
-- Gutbuster Mawtribes character
-- Warriors of Chaos army
-- Beasts of Chaos army
-- Chaos cult
+| Generator | Archived URL |
+|---|---|
+| Skaven — character names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-blog/skaven-character-name-generator-warhammer-fantasy) |
+| Chaos Dwarfs — character names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-blog/chaos-dwarfs-character-name-generator-warhammer-fantasy) |
+| Skaven — army & clan names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-clan-name-generator-skaven) |
+| Khorne Bloodbound — character names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-khorne-bloodbound) |
+| Nurgle Rotbringers — character names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-nurgle-rotbringers) |
+| Slaanesh Hedonites — character names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-slaanesh-hedonites) |
+| Tzeentch Arcanites — character names | [Open Wayback](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-tzeentch-arcanites) |
 
-### Missing pages (14)
+### Most recent recovery batch (7)
 
-| Generator | RoC priority | Wayback page |
-|---|---|---|
-| Skaven character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-blog/skaven-character-name-generator-warhammer-fantasy) |
-| Chaos Dwarfs character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/warhammer-fantasy-blog/chaos-dwarfs-character-name-generator-warhammer-fantasy) |
-| Skaven army/clan | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-clan-name-generator-skaven) |
-| Khorne Bloodbound character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-khorne-bloodbound) |
-| Nurgle Rotbringers character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-nurgle-rotbringers) |
-| Slaanesh Hedonites character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-slaanesh-hedonites) |
-| Tzeentch Arcanites character | High | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-tzeentch-arcanites) |
-| Nighthaunt character | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/2019/2/7/character-name-generator-nighthaunt) |
-| Deathrattle Wights character | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-deathrattle-wights) |
-| Sylvaneth character | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/character-name-generator-sylvaneth) |
-| Cities of Sigmar army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-name-generator-cities-of-sigmar) |
-| Lumineth Realmlords army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-name-generator-lumineth-realm-lords) |
-| Ogor Mawtribes army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/army-name-generator-ogor-mawtribes) |
-| Sylvaneth Wargroves army | Medium | [Open archive](https://web.archive.org/web/20241129090623/https://www.realmofplastic.com/hobby-blog/warhammer-army-name-generator-sylvaneth-wargroves) |
+- Nighthaunt characters: 8 function(s), 2,856 table entries
+- Deathrattle Wights characters: 8 function(s), 4,098 table entries
+- Sylvaneth characters: 8 function(s), 3,290 table entries
+- Cities of Sigmar armies: 2 function(s), 723 table entries
+- Lumineth Realm-lords armies: 1 function(s), 200 table entries
+- Ogor Mawtribes armies: 1 function(s), 266 table entries
+- Sylvaneth Wargroves armies: 1 function(s), 191 table entries
 
-All Wayback links point to the archived snapshot entry point. A linked archived page does not guarantee its original generator script survives; obtain the full HTML (including inline JS) from the user's Firefox source as with prior pages.
+The user's latest seven full HTML captures contain 29 functions and 11,624 array entries. All arrays parsed without errors, all seven generator scripts passed JavaScript syntax checks, and all 29 original functions generated valid names in isolated runtime smoke tests. A deterministic original-vs-reimplementation equivalence test has not been performed for this latest batch. Original data remains in private user-downloadable files and is **not publicly distributed**; metadata, links, hashes and counts only appear on GitHub pending confirmed rights.
